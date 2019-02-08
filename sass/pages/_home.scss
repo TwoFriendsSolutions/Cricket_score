@@ -1,0 +1,25 @@
+.header{
+    grid-column: full-start / full-end;
+//    background-color: deepskyblue;  
+    display: grid;
+    grid-template-rows: min-content max-content;
+}
+.scorecard{
+    grid-column: full-start / full-end;
+    background-color: steelblue;
+}
+.details{
+    grid-column: center-start / center-end;
+    background-color: burlywood;
+}
+.full__screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right,rgba(1,1,1,.7),rgba(1,1,1,.7));
+    display: block;//none
+    
+    
+}
